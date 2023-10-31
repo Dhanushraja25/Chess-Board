@@ -1,0 +1,52 @@
+html{
+    background-image: url(dd.jpg);
+    background-size: cover;
+    
+}
+h1{
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+body{
+    height: 500px;
+    width: 500px;
+    background-color: aliceblue;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 20px double rgba(232, 154, 69, 0.925);
+
+    }
+
+    .row
+    {
+        height: 62.5px;
+        width: 500px;
+        display:flex
+    }
+
+    .bb
+    {
+        height: 62.5px;
+        width: 62.5px;
+        background-image:url(wood2.jpg);
+        font-size: 47px;
+        padding-left: 7px;
+        padding-bottom: 2px;
+    }
+    .bb:hover{
+        opacity: 0.85;
+    }
+    .black
+    {
+        background-image: url(wood1.jpg);
+        background-size: cover;
+    }
+    .wh
+    {
+         color: rgb(255, 255, 255);
+    
+    }
